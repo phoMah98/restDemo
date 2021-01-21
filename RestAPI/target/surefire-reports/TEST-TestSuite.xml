@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="15" name="TestSuite" time="4.028" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="4.035" tests="17" errors="0" skipped="0" failures="15">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
@@ -20,8 +20,7 @@
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
@@ -60,7 +59,7 @@
     <property name="sun.stdout.encoding" value="cp720"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TestRespones" name="testDelAllEmp" time="0.2">
+  <testcase name="testDelAllEmp" classname="TestRespones" time="0.263">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -70,10 +69,8 @@
 	at org.testng.Assert.assertEquals(Assert.java:917)
 	at TestRespones.testDelAllEmp(TestRespones.java:118)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@c39f790
-</system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testDelEmp" time="0.164">
+  <testcase name="testDelEmp" classname="TestRespones" time="0.208">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -110,7 +107,7 @@ Ramez
 12500
 </system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testDelEmp" time="0.157">
+  <testcase name="testDelEmp" classname="TestRespones" time="0.187">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -121,7 +118,7 @@ Ramez
 	at TestRespones.testDelEmp(TestRespones.java:131)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testDelEmp" time="0.18">
+  <testcase name="testDelEmp" classname="TestRespones" time="0.183">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -132,7 +129,7 @@ Ramez
 	at TestRespones.testDelEmp(TestRespones.java:131)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testDelEmp" time="0.18">
+  <testcase name="testDelEmp" classname="TestRespones" time="0.225">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -143,7 +140,7 @@ Ramez
 	at TestRespones.testDelEmp(TestRespones.java:131)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testDelEmp" time="0.163">
+  <testcase name="testDelEmp" classname="TestRespones" time="0.242">
     <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -154,9 +151,9 @@ Ramez
 	at TestRespones.testDelEmp(TestRespones.java:131)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testGetAllEmp" time="0.186"/>
-  <testcase classname="TestRespones" name="testMaxMinSal" time="0.269"/>
-  <testcase classname="TestRespones" name="testPostEmp" time="0.194">
+  <testcase name="testGetAllEmp" classname="TestRespones" time="0.234"/>
+  <testcase name="testMaxMinSal" classname="TestRespones" time="0.261"/>
+  <testcase name="testPostEmp" classname="TestRespones" time="0.175">
     <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -193,7 +190,7 @@ Ramez
 12500
 </system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testPostEmp" time="0.158">
+  <testcase name="testPostEmp" classname="TestRespones" time="0.193">
     <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -204,7 +201,7 @@ Ramez
 	at TestRespones.testPostEmp(TestRespones.java:60)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testPostEmp" time="0.204">
+  <testcase name="testPostEmp" classname="TestRespones" time="0.202">
     <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -215,7 +212,7 @@ Ramez
 	at TestRespones.testPostEmp(TestRespones.java:60)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testPostEmp" time="0.199">
+  <testcase name="testPostEmp" classname="TestRespones" time="0.176">
     <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -226,7 +223,7 @@ Ramez
 	at TestRespones.testPostEmp(TestRespones.java:60)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testPostEmp" time="0.169">
+  <testcase name="testPostEmp" classname="TestRespones" time="0.185">
     <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -237,7 +234,7 @@ Ramez
 	at TestRespones.testPostEmp(TestRespones.java:60)
 </failure>
   </testcase>
-  <testcase classname="TestRespones" name="testPutEmp" time="0.391">
+  <testcase name="testPutEmp" classname="TestRespones" time="0.325">
     <failure message="expected [2500] but found [1250.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2500] but found [1250.0]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -270,11 +267,11 @@ yes
 Rand
 Wael
 1600
-{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 458965 is updated successfully.&quot;}
+{"status" : "SUCCESS", "message" : "Employee with id 458965 is updated successfully."}
 Hi
 </system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testPutEmp" time="0.376">
+  <testcase name="testPutEmp" classname="TestRespones" time="0.293">
     <failure message="expected [Qasem] but found [Osama]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Qasem] but found [Osama]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -283,11 +280,11 @@ Hi
 	at org.testng.Assert.assertEquals(Assert.java:617)
 	at TestRespones.testPutEmp(TestRespones.java:101)
 </failure>
-    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 659821 is updated successfully.&quot;}
+    <system-out>{"status" : "SUCCESS", "message" : "Employee with id 659821 is updated successfully."}
 Hi
 </system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testPutEmp" time="0.409">
+  <testcase name="testPutEmp" classname="TestRespones" time="0.309">
     <failure message="expected [Raed] but found [Thaer]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Raed] but found [Thaer]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -296,11 +293,11 @@ Hi
 	at org.testng.Assert.assertEquals(Assert.java:617)
 	at TestRespones.testPutEmp(TestRespones.java:101)
 </failure>
-    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 457862 is updated successfully.&quot;}
+    <system-out>{"status" : "SUCCESS", "message" : "Employee with id 457862 is updated successfully."}
 Hi
 </system-out>
   </testcase>
-  <testcase classname="TestRespones" name="testPutEmp" time="0.429">
+  <testcase name="testPutEmp" classname="TestRespones" time="0.374">
     <failure message="expected [Rand] but found [Wael]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Rand] but found [Wael]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
@@ -309,7 +306,7 @@ Hi
 	at org.testng.Assert.assertEquals(Assert.java:617)
 	at TestRespones.testPutEmp(TestRespones.java:101)
 </failure>
-    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 542185 is updated successfully.&quot;}
+    <system-out>{"status" : "SUCCESS", "message" : "Employee with id 542185 is updated successfully."}
 Hi
 </system-out>
   </testcase>

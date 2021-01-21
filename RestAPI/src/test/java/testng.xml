@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Default Suite " verbose="1" >
+  <test name="demotest" >
+    <classes>
+       <class name="TestRespones" />
+    </classes>
+  </test>
+ 
+</suite>
