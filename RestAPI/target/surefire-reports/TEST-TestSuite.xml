@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="17" failures="15" name="TestSuite" time="4.028" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ADMIN\IdeaProjects\RestAPI"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="SA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ADMIN\IdeaProjects\RestAPI"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ADMIN\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1256"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\ADMIN\maven\bin;C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ADMIN\AppData\Local\Programs\Python\Python39\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADMIN\AppData\Roaming\npm;;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.1\bin;;."/>
+    <property name="maven.conf" value="C:\Users\ADMIN\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\ADMIN\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.timezone" value="Asia/Hebron"/>
+    <property name="file.encoding" value="Cp1256"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="java.class.path" value="C:\Users\ADMIN\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="ar"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp720"/>
+    <property name="maven.home" value="C:\Users\ADMIN\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp720"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestRespones" name="testDelAllEmp" time="0.2">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelAllEmp(TestRespones.java:118)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@c39f790
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testDelEmp" time="0.164">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelEmp(TestRespones.java:131)
+</failure>
+    <system-out>yes
+458965
+Baraa
+Arda
+3000
+yes
+542154
+Ahmad
+Omar
+2500
+yes
+659821
+Nael
+Osama
+5420
+yes
+457862
+Fuad
+Mohammad
+4000
+yes
+542185
+Abd
+Ramez
+12500
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testDelEmp" time="0.157">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelEmp(TestRespones.java:131)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testDelEmp" time="0.18">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelEmp(TestRespones.java:131)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testDelEmp" time="0.18">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelEmp(TestRespones.java:131)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testDelEmp" time="0.163">
+    <failure message="expected [200] but found [415]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [415]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testDelEmp(TestRespones.java:131)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testGetAllEmp" time="0.186"/>
+  <testcase classname="TestRespones" name="testMaxMinSal" time="0.269"/>
+  <testcase classname="TestRespones" name="testPostEmp" time="0.194">
+    <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testPostEmp(TestRespones.java:60)
+</failure>
+    <system-out>yes
+458965
+Baraa
+Arda
+3000
+yes
+542154
+Ahmad
+Omar
+2500
+yes
+659821
+Nael
+Osama
+5420
+yes
+457862
+Fuad
+Mohammad
+4000
+yes
+542185
+Abd
+Ramez
+12500
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testPostEmp" time="0.158">
+    <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testPostEmp(TestRespones.java:60)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testPostEmp" time="0.204">
+    <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testPostEmp(TestRespones.java:60)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testPostEmp" time="0.199">
+    <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testPostEmp(TestRespones.java:60)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testPostEmp" time="0.169">
+    <failure message="expected [0] but found [-14]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [-14]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:907)
+	at org.testng.Assert.assertEquals(Assert.java:917)
+	at TestRespones.testPostEmp(TestRespones.java:60)
+</failure>
+  </testcase>
+  <testcase classname="TestRespones" name="testPutEmp" time="0.391">
+    <failure message="expected [2500] but found [1250.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2500] but found [1250.0]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:617)
+	at TestRespones.testPutEmp(TestRespones.java:103)
+</failure>
+    <system-out>yes
+458965
+555555
+Firas
+Arda
+2500
+yes
+659821
+333333
+Qasem
+Osama
+4400
+yes
+457862
+222222
+Raed
+Thaer
+5410
+yes
+542185
+101010
+Rand
+Wael
+1600
+{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 458965 is updated successfully.&quot;}
+Hi
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testPutEmp" time="0.376">
+    <failure message="expected [Qasem] but found [Osama]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Qasem] but found [Osama]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:617)
+	at TestRespones.testPutEmp(TestRespones.java:101)
+</failure>
+    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 659821 is updated successfully.&quot;}
+Hi
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testPutEmp" time="0.409">
+    <failure message="expected [Raed] but found [Thaer]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Raed] but found [Thaer]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:617)
+	at TestRespones.testPutEmp(TestRespones.java:101)
+</failure>
+    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 457862 is updated successfully.&quot;}
+Hi
+</system-out>
+  </testcase>
+  <testcase classname="TestRespones" name="testPutEmp" time="0.429">
+    <failure message="expected [Rand] but found [Wael]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Rand] but found [Wael]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:617)
+	at TestRespones.testPutEmp(TestRespones.java:101)
+</failure>
+    <system-out>{&quot;status&quot; : &quot;SUCCESS&quot;, &quot;message&quot; : &quot;Employee with id 542185 is updated successfully.&quot;}
+Hi
+</system-out>
+  </testcase>
+</testsuite>
